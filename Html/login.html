@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="../Css/login.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <h1>Login</h1>
+
+        <div class="blocks">
+            <label for="email">Email</label>
+            <div class="input">
+                <input id="email" type="text">
+                <ion-icon name="mail-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div class="blocks">
+            <label for="password">Password</label>
+            <div class="input">
+                <input id="password" type="password">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div class="remember-forget">
+            <div class="remember">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember me</label>
+            </div>
+            <div class="forget">
+                <a href="#">Forget password?</a>
+            </div>
+        </div>
+
+        <button type="button">Login</button>
+
+        <p>Dont have an account? <a href="#">Register</a></p>
+    </form>
+</body>
+</html>

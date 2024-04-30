@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chilanka', cursive;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/9/519/764/mountains-best-for-desktop-background-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+form {
+    width: 400px;
+    padding: 50px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2)
+}
+
+form .blocks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+form h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+form .blocks label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    user-select: none;
+    cursor: default;
+}
+
+form .blocks input {
+    padding: 5px;
+    border: none;
+    width: 85%;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+form .blocks input:focus {
+    outline: none;
+}
+
+form .remember-forget {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+
+form .remember-forget a{
+    text-decoration: none;
+    color: white;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+form p,
+form a{
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+}
+
+form a {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #fafae3;
+    width: 100%;
+    border-radius: 15px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+    &:hover {
+        background-color: #fafae3;
+        scale: 1.01;
+    }
+    &:active {
+        scale: 0.95;
+    }
+}
+
+
+
+

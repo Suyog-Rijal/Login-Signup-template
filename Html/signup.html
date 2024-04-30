@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="../Css/signup.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <h1>Signup</h1>
+
+        <div class="blocks-2">
+            <div>
+                <label for="first-name">First Name</label>
+                <div class="input">
+                    <input id="first-name" type="text">
+                    <ion-icon name="person-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div>
+                <label for="last-name">Last Name</label>
+                <div class="input">
+                    <input id="last-name" type="text">
+                    <ion-icon name="person-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <div class="blocks">
+            <label for="email">Email</label>
+            <div class="input">
+                <input id="email" type="text" style="width: 95%">
+            </div>
+        </div>
+
+        <div class="blocks-2" style="padding-right: 20px">
+            <div>
+                <input type="date">
+            </div>
+            <div>
+                <select id="gender" name="gender">
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="blocks-2">
+            <div>
+                <label for="password">Password</label>
+                <div class="input">
+                    <input id="password" type="password">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </div>
+            </div>
+            <div>
+                <label for="confirm-password">Confirm Password</label>
+                <div class="input">
+                    <input id="confirm-password" type="password">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <button type="button">Signup</button>
+
+        <p>Already have an account? <a href="#">Login</a></p>
+
+    </form>
+</body>
+</html>
